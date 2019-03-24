@@ -1,0 +1,29 @@
+.cabinTable.non-border tr, .cabinTable.non-border th, .cabinTable.non-border td {
+  border: none !important;
+}
+
+.cabinTable td div {
+  white-space: nowrap;
+}
+
+.vue-table-warpper {
+  height: 100%;
+  background-color: white;
+}
+
+.vue-table-warpper .table-responsive {
+  height: 100%;
+  overflow: scroll;
+}
+
+.vue-table-warpper tbody tr:hover {
+  background-color: #f0f0f0;
+}
+
+.vue-table-warpper tbody tr:active {
+  background-color: #f0f0f0;
+}
+
+.vue-table-warpper tbody tr.curRow {
+  background-color: #f0f0f0;
+}
